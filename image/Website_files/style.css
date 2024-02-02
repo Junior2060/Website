@@ -1,0 +1,240 @@
+body{
+    background-color: #b8bbb8;
+}
+div,img,p{
+    /* border: 1px dashed rgb(0, 0, 255); */
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    padding: 35px 30px;
+    background-color: #d5e7db;
+}
+.name{
+    width: 200px;
+    /* padding: 3px 22px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 25px; */
+
+}
+.nav{
+    display: flex;
+
+}
+.nav div{
+    padding: 6px 32px;
+    margin: auto 20px;
+    text-transform: uppercase;
+    background-color: #adcccc;
+    border-radius: 0 19px 0 19px;
+    cursor: pointer;
+}
+.nav div:hover{
+    background-color: #77afaf;
+}
+.info-banner{
+    height: 700px;
+    margin: 12px 0;
+    width: 100%;
+}
+/* Our Services CSS */
+.head{
+    font-size: 45px;    
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: #e2e0e0;
+    padding: 20px 0;
+    margin-top: 10px;
+
+}
+.container{
+    padding: 25px 50px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    flex-flow: wrap;
+    /* background-color: #aeb9d1; */
+}
+.service-card{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin: 12px 15px;
+    background-color: #9c8e8e;
+    border-radius: 15px;
+}
+.service-card-topic{
+    padding: 12px 0 0 0;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+.service-image{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    /* justify-content: center; */
+    margin: 0 auto;
+}
+.desc{
+    padding: 12px 10px;
+    margin: 5px 7px;
+    font-size: 18px;
+    height: 145px;
+    overflow: hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.foot{
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 0 0 15px 25px; */
+    margin: 0 0 12px 0;
+    /* padding: 3px 12px; */
+
+
+}
+.btn{
+    /* margin: 0 0 12px 0; */
+    padding: 3px 12px;
+    margin: 4px 0 ;
+    background-color: #c4c1e2;
+    font-weight: bold;
+    border-radius: 9px;
+    box-shadow:5px 7px 7px rgb(29, 21, 21);
+}
+.btn:hover{
+    cursor: pointer;
+   
+    background-color: #9490be;
+
+    
+}
+/* banner section  */
+.banner{
+    background-image: url(./image/lab.png);
+    height: 140px;
+    margin: 20px 0;
+}
+/* Product Section  */
+.product-container{
+    padding: 45px 100px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    flex-flow: wrap;
+}
+.product-card{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    margin: 22px 15px;
+    background-color: #9c8e8e;
+    border-radius: 15px;
+}
+.product-image{
+    width: 130px;
+    display: flex;
+    /* justify-content: center; */
+    margin: 0 auto;
+}
+.product-card-topic{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+.product-description{
+    margin: 2px 4px ;
+    padding: 5px 4px;
+    height: 90px;
+    overflow: hidden;
+
+}
+.product-card-btn{
+    display: flex;
+    justify-content: center;
+    padding: 3px 22px;
+    margin: 0px 28px ;
+    background-color: #c4c1e2;
+    font-weight: bold;
+    border-radius: 9px;
+    box-shadow:5px 7px 7px rgb(29, 21, 21);
+}
+.product-card-btn:hover{
+    cursor: pointer;
+    background-color: #a19ae7;
+    
+}
+.footer{
+    /* border: 2px solid   red; */
+    margin: 15px 0 0 0;
+    padding: 20px 0px 0 0 ;
+    background-color: #2f2e30;
+}
+.upper-footer{
+    /* height: 200px; */
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+}
+.footer-part{
+    width: 150px;
+    margin: 10px 10px;
+    /* padding: 5px 12px; */
+}
+.footer-part-head{
+    font-weight: bold;
+    font-size: 19px;
+    margin: 2px 0 5px 5px;
+}
+.footer-part-body{
+    margin: 2px 0 5px 15px;
+
+}
+.footer-part-body div{
+    margin: 5px  0;
+}
+.lower-footer{
+    width: 100%;
+    background-color: #1c1c1d;
+
+}
+.icon-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.icons{
+    margin: 10px ;
+    /* padding: 0 120px; */
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons i{
+    /* background-color: #fff; */
+    /* border: 2px solid white; */
+    color: white;
+    
+}
+.copywrite{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+}
+.copywrite p{
+    width: 500px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    margin: 0 0 40px 0;
+    padding: 0;
+
+}
